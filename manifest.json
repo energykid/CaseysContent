@@ -1,0 +1,9 @@
+{
+	"name": "Casey's Content",
+	"version_number": "0.0.1",
+	"website_url": "https://github.com/energykid/CaseysContent",
+	"description": "Adds content made by Casey.",
+	"dependencies": [
+		"ReturnOfModding-ReturnOfModding-1.0.20"
+	]
+}
