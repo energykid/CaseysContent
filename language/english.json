@@ -1,0 +1,13 @@
+{
+    "item" : {
+        "magmaCluster" : {
+            "name" : "Magma Cluster",
+            "pickup" : "Increases damage with quick successive hits.",
+            "description" : "Increases damage by <y>1%</c> per hit <c_stack>(+0.5% per stack)</c> up to <y>10% <c_stack>(+5% per stack)</c>. Resets if player does not deal damage for two seconds.",
+            "destination" : "5 Tiptop Rd.",
+            "date" : "6/12/2062",
+            "story" : "hey oli!\n\ni found this cool ass rock at the asteroid belt!!!\ni'll probably be on my flight back home as you receive this, but i wanted you to have it. if for whatever reason, we have to part ways, you can remember me by this.\nplease don't lose it! i love yoooooouuuuu!\nshane",
+            "priority" : "Standard"
+        }
+    }
+}

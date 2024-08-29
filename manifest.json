@@ -4,6 +4,7 @@
 	"website_url": "https://github.com/energykid/CaseysContent",
 	"description": "Adds content made by Casey.",
 	"dependencies": [
-		"ReturnOfModding-ReturnOfModding-1.0.20"
+		"ReturnOfModding-ReturnOfModding-1.0.20",
+		"RoRRModdingToolkit-RoRR_Modding_Toolkit-1.0.11"
 	]
 }
