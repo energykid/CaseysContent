@@ -1,7 +1,7 @@
 
 local sprite = Resources.sprite_load(PATH.."assets/sprites/magmaCluster.png", 1, false, false, 16, 18);
 
-local hitSound = Resources.sfx_load(PATH.."assets/sounds/MagmaClusterSound.ogg");
+local hitSound = Resources.sfx_load(PATH.."assets/sounds/magmaClusterSound.ogg");
 
 local item = Item.create("CaseysContent", "magmaCluster");
 Item.set_sprite(item, sprite);
@@ -35,5 +35,5 @@ Item.add_callback(item, "onAttack", function(actor, damager, stack)
 end)
 
 Item.add_callback(item, "onHit", function(actor, victim, damager, stack)
-    actor.cascon_damageIncreaseResetTimer = 120
+    actor.cascon_damageIncreaseResetTimer = 60
 end)

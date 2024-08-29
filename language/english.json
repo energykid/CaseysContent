@@ -3,11 +3,21 @@
         "magmaCluster" : {
             "name" : "Magma Cluster",
             "pickup" : "Increases damage with quick successive hits.",
-            "description" : "Increases damage by <y>1%</c> per hit <c_stack>(+0.5% per stack)</c> up to <y>10% <c_stack>(+5% per stack)</c>. Resets if player does not deal damage for two seconds.",
+            "description" : "Increases damage by <y>1%</c> per hit <c_stack>(+0.5% per stack)</c> up to <y>10% <c_stack>(+5% per stack)</c>. Resets if player does not deal damage for one second.",
             "destination" : "5 Tiptop Rd.",
             "date" : "6/12/2062",
             "story" : "hey oli!\n\ni found this cool ass rock at the asteroid belt!!!\ni'll probably be on my flight back home as you receive this, but i wanted you to have it. if for whatever reason, we have to part ways, you can remember me by this.\nplease don't lose it! i love yoooooouuuuu!\nshane",
             "priority" : "Standard"
+        },
+
+        "gildedRibbon" : {
+            "name" : "Gilded Ribbon",
+            "pickup" : "Increases movement speed after using your mobility skill.",
+            "description" : "Increases movement speed by <b>25% <c_stack>(+7% per stack)</c> for <b>1 second <c_stack>(+0.25 second per stack)</c>.",
+            "destination" : "42 Concord Ln.\nCrown Republic\nPlanet Ethos",
+            "date" : "2/7/2032",
+            "story" : "We've found an intriguing ribbon at the dig site. It's torn, but curiously, not disheveled in the slightest. Despite its silky, almost transparent appearance, dirt seems to roll right off of it! It's as though it were treated with some sort of hydrophobic spray, except for dust instead of water.\nPlease do send back testing results from the lab if possible; I'm intrigued to see how this effect was achieved!",
+            "priority" : "Classified"
         }
     }
 }
