@@ -10,11 +10,21 @@
             "priority" : "Standard"
         },
 
+        "coalChunk" : {
+            "name" : "Coal Chunk",
+            "pickup" : "Increases mobility when low on gold.",
+            "description" : "Increases <y>movement speed</c> by <y>20% <c_stack>(+10% per stack)</c> while beneath <y>25 gold <c_stack>(+25 per stack)</c>.",
+            "destination" : "102 Evil Street,\nPlanet Drach",
+            "date" : "2/22/2141",
+            "story" : "Sorry, bud. You've been naughty this Christmas.\n\n   <c_stack>- <r>S<g>a<r>n<g>t<r>a <g>C<r>l<g>a<r>u<g>s</c>",
+            "priority" : "Standard"
+        },
+
         "gildedRibbon" : {
             "name" : "Gilded Ribbon",
             "pickup" : "Increases movement speed after using your mobility skill.",
             "description" : "Increases <y>movement speed</c> by <y>30% <c_stack>(+10% per stack)</c> for <b>1/2 second <c_stack>(+1/6 second per stack)</c> upon using your <y>mobility skill</c>.",
-            "destination" : "42 Concord Ln.\nCrown Republic\nPlanet Ethos",
+            "destination" : "421 Concord Ln.\nCrown Republic\nPlanet Ethos",
             "date" : "2/7/2032",
             "story" : "We've found an intriguing ribbon at the dig site. It's torn, but curiously, not disheveled in the slightest. Despite its silky, almost transparent appearance, dirt seems to roll right off of it! It's as though it were treated with some sort of hydrophobic spray, except for dust instead of water.\nPlease do send back testing results from the lab if possible; I'm intrigued to see how this effect was achieved!",
             "priority" : "<g>Priority</c>"
