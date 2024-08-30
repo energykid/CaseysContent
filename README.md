@@ -1,2 +1,2 @@
 # CaseysContent
-A Risk of Rain Returns mod that adds some content.
+A Risk of Rain Returns mod that aims to add content.

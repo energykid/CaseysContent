@@ -13,11 +13,21 @@
         "gildedRibbon" : {
             "name" : "Gilded Ribbon",
             "pickup" : "Increases movement speed after using your mobility skill.",
-            "description" : "Increases movement speed by <b>25% <c_stack>(+7% per stack)</c> for <b>1 second <c_stack>(+0.25 second per stack)</c>.",
+            "description" : "Increases <y>movement speed</c> by <y>30% <c_stack>(+10% per stack)</c> for <b>1/2 second <c_stack>(+1/6 second per stack)</c> upon using your <y>mobility skill</c>.",
             "destination" : "42 Concord Ln.\nCrown Republic\nPlanet Ethos",
             "date" : "2/7/2032",
             "story" : "We've found an intriguing ribbon at the dig site. It's torn, but curiously, not disheveled in the slightest. Despite its silky, almost transparent appearance, dirt seems to roll right off of it! It's as though it were treated with some sort of hydrophobic spray, except for dust instead of water.\nPlease do send back testing results from the lab if possible; I'm intrigued to see how this effect was achieved!",
-            "priority" : "Classified"
+            "priority" : "<g>Priority</c>"
+        },
+
+        "runicEye" : {
+            "name" : "Eclectic Eye",
+            "pickup" : "Secondary skill spawns piercing eyes that hurt nearby enemies.",
+            "description" : "<b>Upon using your secondary skill, 3 runic eyes <c_stack>(+1 per stack)</c> will spawn, dealing <r>250% damage <c_stack>(+25% per stack)</c> to a nearby enemy.",
+            "destination" : "???",
+            "date" : "4/15/1992",
+            "story" : "Dearest acolyte,\n\nYour etching skills left me much to appreciate! I am truly impressed by your mastery of the dark arts...\nEnclosed is a token of my gratitude. You may use this to power your constructs. Take care when using this one next to any animals however, as it will attach its power to any and all natural matter that doesn't belong to the one using it.\n\nBest regards,\nYour Professor",
+            "priority" : "<r>High Priority</c>"
         }
     }
 }

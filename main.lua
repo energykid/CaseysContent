@@ -4,9 +4,18 @@ PATH = _ENV["!plugins_mod_folder_path"].."/"
 
 -- Load Content
 function __initialize()
+
+    log.info("Successfully loaded Casey's Content!")
+
     gm.translate_load_file(gm.variable_global_get("_language_map"), PATH.."language/english.json")
 
     -- Require all files in item folder
     local names = path.get_files(PATH.."items")
     for _, name in ipairs(names) do require(name) end
+end
+
+function object_draw_self(self)
+    local blend = 16777215
+    local alpha = 1.0
+    gm.draw_sprite_ext(self.sprite_index, self.image_index, self.x, self.y, self.image_xscale, self.image_yscale, self.image_angle, blend, alpha)
 end

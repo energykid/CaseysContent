@@ -1,8 +1,6 @@
 
 local sprite = Resources.sprite_load(PATH.."assets/sprites/magmaCluster.png", 1, false, false, 16, 18);
 
-local hitSound = Resources.sfx_load(PATH.."assets/sounds/magmaClusterSound.ogg");
-
 local item = Item.create("CaseysContent", "magmaCluster");
 Item.set_sprite(item, sprite);
 Item.set_tier(item, Item.TIER.common)
