@@ -15,6 +15,8 @@ GlobalStep = {
 }
 GlobalDraw = {
 }
+PrePlayerGlobalDraw = {
+}
 
 AddFunction = function(tab, func)
     table.insert(tab, func)
