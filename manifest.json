@@ -1,8 +1,8 @@
 {
 	"name": "CaseysContent",
-	"version_number": "0.0.2",
+	"version_number": "0.0.4",
 	"website_url": "https://github.com/energykid/CaseysContent",
-	"description": "Adds some content made by Casey (ENNWAY).",
+	"description": "Haphazardly adds various content, designed by Casey William (ENNWAY).",
 	"dependencies": [
 		"ReturnOfModding-ReturnOfModding-1.0.20",
 		"RoRRModdingToolkit-RoRR_Modding_Toolkit-1.0.11"

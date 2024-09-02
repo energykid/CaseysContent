@@ -29,7 +29,6 @@ Item.add_callback(item, "onAttack", function(actor, damager, stack)
     local num = Helper.mixed_hyperbolic(stack, 0.005, 0.01)
     actor.cascon_damageIncrease = actor.cascon_damageIncrease + num
     actor.cascon_damageIncrease = math.min(actor.cascon_damageIncrease, Helper.mixed_hyperbolic(stack, 0.05, 0.1))
-    log.info(tostring(actor.cascon_damageIncrease)..", "..tostring(actor.cascon_damageIncreaseResetTimer))
 end)
 
 Item.add_callback(item, "onHit", function(actor, victim, damager, stack)

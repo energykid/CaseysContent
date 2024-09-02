@@ -1,4 +1,3 @@
-
 local sprite = Resources.sprite_load(PATH.."assets/sprites/coalChunk.png", 1, false, false, 17, 12);
 local buffSprite = Resources.sprite_load(PATH.."assets/sprites/coalBoostBuff.png", 1, false, false, 5, 6);
 

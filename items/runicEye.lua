@@ -2,7 +2,7 @@ local sprite = Resources.sprite_load(PATH.."assets/sprites/runicEye.png", 1, fal
 
 local item = Item.create("CaseysContent", "runicEye");
 Item.set_sprite(item, sprite);
-Item.set_tier(item, Item.TIER.common)
+Item.set_tier(item, Item.TIER.rare)
 Item.set_loot_tags(item, Item.LOOT_TAG.category_damage)
 
 -- Objects
@@ -66,7 +66,7 @@ Object.add_callback(procObj, "Step", function(self)
         if (self.t > 30) then
             self.image_xscale = self.image_xscale + 0.05
             self.image_yscale = self.image_yscale - 0.05
-            if (self.image_yscale <= 0) then gm.instance_destroy(self) end
+            if (self.image_yscale <= 0) then gm.instance_destroy(self, false) end
         end
     end 
 end)
@@ -93,7 +93,11 @@ end)
 
 Object.add_callback(projObj, "Step", function(self)
     self.alph = self.alph * 0.8
-    if (self.alph < 0.1) then gm.instance_destroy(self) end
+    if (self.alph < 0.1) then gm.instance_destroy(self, false) end
+end)
+
+Object.add_callback(projObj, "Destroy", function(self)
+    
 end)
 
 Object.add_callback(projObj, "Draw", function (self)
